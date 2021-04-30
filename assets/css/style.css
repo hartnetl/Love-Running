@@ -57,8 +57,30 @@ h1, h2 {
 
 /* hero image */
 
+#hero-outer {
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center;
+
+    /* animates the zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;          /* retains state of information at last keyframe */
+
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{                                           /* This defines the starting state of the image */
+        transform: scale(1);                        /* A value of 1 = 100% */
+    }
+    to {                                            /* This defines the final state of the image */
+        transform: scale(1.1);                      /* A value of 1.1 = 110% which is a 10% increase in size */
+    }
 }
