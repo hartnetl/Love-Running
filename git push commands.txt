@@ -23,3 +23,13 @@ git commit -m "Style navigation links"
 
 
 ~*~*~*~*~*~*~* The Hero Image ~*~*~*~*~*~*~*~*
+
+git commit -m "add hero image to header without finished styling"
+[added image to images folder (download, drag, drop) and centered it in header]
+
+git commit -m "added animation to the hero image"
+[ Created animation on the hero image - it zooms from 100% to 110% and stays that way]
+
+git commit -m "add cover text and style"
+[created a div to add a floating text box over the hero image. The position of the box is absolute, and it's parent
+(hero outer) is set to relative. Otherwise the text box is positioned in relation to the page, not the head image]
