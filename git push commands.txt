@@ -1,0 +1,6 @@
+git commit -m "initital commit"     
+[This is the first commit with the boiler template loaded and pages made]
+git commit -m "Add meta data to head and connect css file"    
+[added meta data - description of page and key words. Added link to css sheet]
+git commit -m "add core structure for home page"        
+[Made the 3 main sections with placeholder text]                                                               
