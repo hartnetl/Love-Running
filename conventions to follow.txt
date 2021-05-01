@@ -9,3 +9,5 @@ Write commit notes in present tense
 
 For visual balance, use multiples of a number. 
 In love running project this was set at 75 (so 150, 300, 600, 900 and 1200 all appear)
+
+When structuring your site, set strong contrasting backgrounds to see what is where

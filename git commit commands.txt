@@ -33,3 +33,19 @@ git commit -m "added animation to the hero image"
 git commit -m "add cover text and style"
 [created a div to add a floating text box over the hero image. The position of the box is absolute, and it's parent
 (hero outer) is set to relative. Otherwise the text box is positioned in relation to the page, not the head image]
+
+~*~*~*~*~*~*~* The club Ethos~*~*~*~*~*~*~*~*
+
+git commit -m "add club ethos main structures"
+[created 3 divs - left for the left text, right for the right text, and center for the image in the middle.
+Set the middle one last, because you float left and right, but middle is "margin: 0 auto"]
+
+git commit -m "Add right about section content and style"
+[Entered text for left and right hand sides. Left is left aligned + spaced out, right is right aligned
+to give appearance of curving around the center image]
+
+git commit -m "add club ethos central image and style into a circle"
+[Created a circle border for image using two nested divs. Added image and styled it into a circle.]
+
+git commit -m "Add Font Awesome icons to club ethos section"
+[Found icons on Font Awesome, pasted the code into our headings]
