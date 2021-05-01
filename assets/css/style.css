@@ -186,3 +186,14 @@ hr {
     height: 100%;                                /* We need to give the  div a height or the image won’t show up. */
     border-radius: 50%;                          /*The image used was ~ 300px x 300px to put the runner in the center*/
 }
+
+/* Event times */
+
+#times {
+    background-image: url('../images/dublin-city.webp'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
