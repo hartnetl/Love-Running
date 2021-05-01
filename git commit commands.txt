@@ -57,3 +57,6 @@ git commit -m "add meetup times main structure"
 
 git commit -m "add meetup times main structure"
 [Added background image across section]
+
+ git commit -m "Style times panels and add icons"
+ [Laid out divs horizontally; added border to break up image; added icons]
