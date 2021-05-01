@@ -12,9 +12,10 @@ body {
     color: #3a3a3a;
 }
 
-/* Headings and logo */
+/* *~*~*~*~*~*~*~* Headings and logo *~*~*~*~*~*~*~* */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -27,14 +28,15 @@ h1, h2 {
     margin-left: 30px;
 }
 
-/* navigation links */
+/* *~*~*~*~*~*~*~* navigation links *~*~*~*~*~*~*~* */
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -57,7 +59,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image and cover text*/
+/* *~*~*~*~*~*~*~* hero image and cover text *~*~*~*~*~*~*~**/
 
 #hero-outer {
     height: 600px;
@@ -67,7 +69,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -79,16 +82,17 @@ h1, h2 {
     /* animates the zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;          /* retains state of information at last keyframe */
+    animation-fill-mode: forwards;    /* retains state of information at last keyframe */
 }
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{                                           /* This defines the starting state of the image */
-        transform: scale(1);                        /* A value of 1 = 100% */
+    from {                       /* This defines the starting state of the image */
+        transform: scale(1);     /* A value of 1 = 100% */
     }
-    to{                                            /* This defines the final state of the image */
-        transform: scale(1.1);                      /* A value of 1.1 = 110% which is a 10% increase in size */
+
+    to {                         /* This defines the final state of the image */
+        transform: scale(1.1);   /* A value of 1.1 = 110% which is a 10% increase in size */
     }
 }
 
@@ -112,7 +116,8 @@ h1, h2 {
     position: absolute;
 }
 
-/* Club Ethos */
+/* *~*~*~*~*~*~*~* Club Ethos *~*~*~*~*~*~*~* */
+
 #club-ethos {
     height: 600px;
 }
@@ -121,7 +126,7 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-   }
+}
 
 #right-about {
     padding-top: 30px;
@@ -129,7 +134,7 @@ h1, h2 {
     float: right;
 }
 
-#center-about {                           /* Putting the center one last is the easiest way to structure like this*/
+#center-about {             /* Putting the center one last is the easiest way to structure like this*/
     width: 33%;
     margin: 0 auto;
 }
@@ -148,11 +153,11 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading { 
+.right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
-    clear: both;                       
+    clear: both;
     margin-bottom: 50px;
 }
 
@@ -161,7 +166,7 @@ hr {
 }
 
 .right-about-heading p {
-    text-align: right;    
+    text-align: right;
 }
 
 #welcome {
@@ -177,20 +182,20 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
-    border-radius: 50%;                         /* This turns squares into circles, or rectangles into elipses */  
-    margin: 0 auto;                             /* this setting centers things that are in the center */
+    border-radius: 50%;              /* This turns squares into circles, or rectangles into elipses */
+    margin: 0 auto;                  /* this setting centers things that are in the center */
 }
 
 #circle-cover-bg {
     background: url("../images/ethos-center-image.jpg") no-repeat center center;
-    height: 100%;                                /* We need to give the  div a height or the image won’t show up. */
-    border-radius: 50%;                          /*The image used was ~ 300px x 300px to put the runner in the center*/
+    height: 100%;                        /* We need to give the  div a height or the image won’t show up. */
+    border-radius: 50%;                  /*The image used was ~ 300px x 300px to put the runner in the center*/
 }
 
-/* Event times */
+/* *~*~*~*~*~*~*~* Event times *~*~*~*~*~*~*~**/
 
 #times {
-    background-image: url('../images/dublin-city.webp'); 
+    background-image: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,16 +206,37 @@ hr {
 #times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
-    width: 20%;                         /* 20% cause there's 5 side by side divs */
-    height: 300px;                      /* This is half the height of sections above */
-    float: left;                        /* Shows the text divs horizontally */
-    padding: 30px 00 10px;              /* padding on top and left only */
+    width: 20%;              /* 20% cause there's 5 side by side divs */
+    height: 300px;           /* This is half the height of sections above */
+    float: left;             /* Shows the text divs horizontally */
+    padding: 30px 00 10px;   /* padding on top and left only */
     text-align: center;
-    border: 2px solid white;          /* The border colour matches the background to give the appearance
-                                            of the image being broken up into 5 */
-    box-sizing: border-box;             /* Adding the border made our width >100%. This keeps it to that */
+    border: 2px solid white;
+    /* ^ The border colour matches the background to give the appearance of the image being broken up into 5 */
+    box-sizing: border-box;      /* Adding the border made our width >100%. This keeps it to that */
 }
 
 #times h2 {
     color: #fafafa;
+}
+
+/* *~*~*~*~*~*~*~* Footer *~*~*~*~*~*~*~* */
+
+footer {
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;     /* !!!!! Could this be used with nav bar? */
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }

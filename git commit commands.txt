@@ -58,5 +58,9 @@ git commit -m "add meetup times main structure"
 git commit -m "add meetup times main structure"
 [Added background image across section]
 
- git commit -m "Style times panels and add icons"
- [Laid out divs horizontally; added border to break up image; added icons]
+git commit -m "Style times panels and add icons"
+[Laid out divs horizontally; added border to break up image; added icons]
+ 
+git commit -m "Add social media links to footer" 
+[Added 4 social media links to footer with clickable icons that open in new page. 
+Remember to add "rel="noopener" for social media links and an aria-label for screen readers. And new tab.]
