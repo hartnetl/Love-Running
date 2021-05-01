@@ -49,3 +49,11 @@ git commit -m "add club ethos central image and style into a circle"
 
 git commit -m "Add Font Awesome icons to club ethos section"
 [Found icons on Font Awesome, pasted the code into our headings]
+
+~*~*~*~*~*~*~* Meetings ~*~*~*~*~*~*~*~*
+
+git commit -m "add meetup times main structure"
+[Created 5 divs with info about each meetup]
+
+git commit -m "add meetup times main structure"
+[Added background image across section]

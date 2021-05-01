@@ -197,3 +197,20 @@ hr {
     width: 100%;
     overflow: hidden;
 }
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;                         /* 20% cause there's 5 side by side divs */
+    height: 300px;                      /* This is half the height of sections above */
+    float: left;                        /* Shows the text divs horizontally */
+    padding: 30px 00 10px;              /* padding on top and left only */
+    text-align: center;
+    border: 2px solid white;          /* The border colour matches the background to give the appearance
+                                            of the image being broken up into 5 */
+    box-sizing: border-box;             /* Adding the border made our width >100%. This keeps it to that */
+}
+
+#times h2 {
+    color: #fafafa;
+}
