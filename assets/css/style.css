@@ -240,3 +240,16 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/*  *~*~*~*~*~*~*~* GALLERY PAGE *~*~*~*~*~*~*~* */
+
+#photos {
+    clear: both;            /* Displays photos below header */
+    line-height: 0;         /* Removes gaps between tops and bottoms of images */
+    column-count: 4;        /* Lines up 4 images side by side */
+    column-gap: 0;          /* Removes vertical gaps between images */
+}
+
+#photos > img {
+    width: 100%;
+}
