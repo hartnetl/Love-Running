@@ -333,4 +333,13 @@ specified screen size is reached. Allows layout to change in response. */
         padding: 0 20px;                                    /* Left and right padding */
     } 
    
+    #photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {                      /* makes gallery smaller again for small screens */
+    #photos {
+        column-count: 2;
+    }
 }
