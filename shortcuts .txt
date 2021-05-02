@@ -1,4 +1,4 @@
 ! tab               ** runs boilerplate code **
 CTRL SHIFT R        ** Hard refresh on chrome **
-CTRL SHIFT F        ** Formats code on gitpod **
+ALT SHIFT F        ** Formats code on gitpod **
 h3*4  tab           ** Creates 4 h3 headings **

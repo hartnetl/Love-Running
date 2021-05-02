@@ -61,6 +61,20 @@ git commit -m "add meetup times main structure"
 git commit -m "Style times panels and add icons"
 [Laid out divs horizontally; added border to break up image; added icons]
  
+~*~*~*~*~*~*~* Footer ~*~*~*~*~*~*~*~*
+
 git commit -m "Add social media links to footer" 
 [Added 4 social media links to footer with clickable icons that open in new page. 
 Remember to add "rel="noopener" for social media links and an aria-label for screen readers. And new tab.]
+
+git commit -m "Style social media icons"
+[Displayed icons horizontally across the footer, making them larger and changed colour]
+
+~*~*~*~*~*~*~* Gallery ~*~*~*~*~*~*~*~*
+
+git commit -m "Add core html elements to gallery page"
+[Created gallery page. Added same header and footer as index. Linked index to this and made gallery the
+active class for styling.]
+
+git commit -m "Add photos to gallery and gave masonry styling"
+[Added all photos. Removed all gaps between them. Gave 4 columns.]
