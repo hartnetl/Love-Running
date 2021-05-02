@@ -285,6 +285,13 @@ specified screen size is reached. Allows layout to change in response. */
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;                    /*Makes each div take up full screen width */
+        clear: both;                    /* Stacks them vertically */
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
@@ -325,4 +332,5 @@ specified screen size is reached. Allows layout to change in response. */
         text-align: center;
         padding: 0 20px;                                    /* Left and right padding */
     } 
+   
 }
