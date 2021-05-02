@@ -258,7 +258,7 @@ footer {
 /* **Media quesries contain styles that are only classed when certain criteria are met, such as a 
 specified screen size is reached. Allows layout to change in response. */
 
-/* For larger to medium screens size from 1200px wide and down 
+/* For larger to medium screens size from 1200px wide and down (tablets)
    Chose this value because this is where our site starts to get distorted when sized down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
@@ -288,4 +288,17 @@ specified screen size is reached. Allows layout to change in response. */
     hr {
         display: none;
     }
+}
+
+/* For medium screen sizes from 905px wide and down (phones)*/
+@media screen and (max-width: 950px) {
+
+   /* Push nav items below and left of logo */
+     #menu {                    
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    } 
 }
