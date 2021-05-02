@@ -34,6 +34,7 @@ git commit -m "add cover text and style"
 [created a div to add a floating text box over the hero image. The position of the box is absolute, and it's parent
 (hero outer) is set to relative. Otherwise the text box is positioned in relation to the page, not the head image]
 
+
 ~*~*~*~*~*~*~* The club Ethos~*~*~*~*~*~*~*~*
 
 git commit -m "add club ethos main structures"
@@ -50,6 +51,7 @@ git commit -m "add club ethos central image and style into a circle"
 git commit -m "Add Font Awesome icons to club ethos section"
 [Found icons on Font Awesome, pasted the code into our headings]
 
+
 ~*~*~*~*~*~*~* Meetings ~*~*~*~*~*~*~*~*
 
 git commit -m "add meetup times main structure"
@@ -61,6 +63,7 @@ git commit -m "add meetup times main structure"
 git commit -m "Style times panels and add icons"
 [Laid out divs horizontally; added border to break up image; added icons]
  
+
 ~*~*~*~*~*~*~* Footer ~*~*~*~*~*~*~*~*
 
 git commit -m "Add social media links to footer" 
@@ -70,6 +73,7 @@ Remember to add "rel="noopener" for social media links and an aria-label for scr
 git commit -m "Style social media icons"
 [Displayed icons horizontally across the footer, making them larger and changed colour]
 
+
 ~*~*~*~*~*~*~* Gallery ~*~*~*~*~*~*~*~*
 
 git commit -m "Add core html elements to gallery page"
@@ -78,3 +82,22 @@ active class for styling.]
 
 git commit -m "Add photos to gallery and gave masonry styling"
 [Added all photos. Removed all gaps between them. Gave 4 columns.]
+
+
+~*~*~*~*~*~*~* MEDIA QUERIES  ~*~*~*~*~*~*~*~*
+
+git commit -m "Add styles to club ethos for max-width 1200px"
+[Made the ethos rules stack on top of each other, removed hr line, pushed image beneath text for smaller screens]
+
+git commit -m "Style menu area for screens 950px wide and down"
+[Made nav bar go to left of screen under logo]
+
+git commit -m "Add styles for club ethos section on mobile screens"
+[Centered headings and text. Floated hero image box to left.]
+
+git commit -m "Style meetup times for tablet and mobile screens"
+[Made meetups stack vertically and take full width. 
+Only need to do this in tablet version, because everything underneath will take it too]
+
+git commit -m "Style gallery for responsive design"
+[Made gallery 3 columns wide for tablets, and 2 for phones]
