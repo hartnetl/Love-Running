@@ -301,4 +301,28 @@ specified screen size is reached. Allows layout to change in response. */
         margin-bottom: 20px;
         line-height: 25px;
     } 
+
+    #cover-text {                                           /* Floats text box to left on image */
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {       /*centers heading text*/
+        width: inherit;
+        text-align: center;
+    } 
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;                                    /* Left and right padding */
+    } 
 }
